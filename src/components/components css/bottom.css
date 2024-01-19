@@ -1,0 +1,252 @@
+.bottom{
+    background: var(--Neutral-50, #F6F8F7);
+    padding: 84px 160px 84px 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-item{
+    display: flex;
+
+    font-family: Work Sans;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: right;
+}
+
+.right-item span{
+    color: var(--primary, #C09015);
+    font-weight: 500;
+}
+
+.right-item p{
+    color: var(--Neutral-800, #292E3D);
+    font-weight: 400;
+    margin-left: auto;
+}
+
+.it1 span{
+    margin-left: 12px;
+}
+
+.it2 span{
+    margin-left: 36px;
+}
+
+.it3 span{
+    margin-left: 40px;
+}
+
+.it4{
+    margin-top: 48px;
+}
+
+.right-item h1{
+    margin-left: auto;
+    margin-right: 12px;
+    margin-top: 5px;
+    color: var(--primary, #C09015);
+    text-align: right;
+    font-family: Vazirmatn;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.right-item img{
+    width: 40px;
+    height: 48px;
+}
+
+.bottom-left{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.bottom-left span{
+    color: var(--primary, #C09015);
+    text-align: right;
+    font-family: Vazirmatn;
+    font-size: 20px;
+    font-weight: 500;
+    font-variant: all-small-caps;
+}
+
+form{
+    margin-bottom: 42px;
+}
+
+form .text{
+    width: 280px;
+    height: 40px;
+    margin-right: 10px;
+    padding: 10px 8px;
+
+    border-radius: 4px;
+    border: 1px solid var(--Neutral-100, #E0E3EB);
+
+    color: var(--Neutral-300, #A3AAC2);
+
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+form .button{
+    width: 135px;
+    height: 40px;
+
+    border-radius: 4px;
+    background: var(--primary, #C09015);
+    border: 0;
+
+    color: var(--Neutral-White, #FFF);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.comunication{
+    display: flex;
+    gap: 20px;
+}
+
+.comunication img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+@media screen and (width <= 1200px) {
+    .bottom{
+        padding: 84px 120px 84px 120px;
+    }
+}
+
+@media screen and (width <= 1120px) {
+    .bottom{
+        padding: 84px 70px 84px 70px;
+    }
+}
+
+@media screen and (width <= 1001px) {
+    .bottom{
+        padding: 84px 40px 84px 40px;
+    }
+    .right-item{
+        font-size: 18px;
+    }
+    .bottom-left span{
+        font-size: 18px;
+    }
+}
+
+@media screen and (width <= 910px) {
+    .bottom{
+        padding: 84px 30px 84px 30px;
+    }
+    .right-item{
+        font-size: 16px;
+    }
+    .bottom-left span{
+        font-size: 16px;
+    }
+    form .button{
+        width: 100px;
+        font-size: 15px;
+    }
+    form .text{
+        width: 240px;
+        font-size: 15px;
+    }
+    .right-item img{
+        width: 30px;
+        height: 38px;
+    }
+    .right-item h1{
+        font-size: 20px;
+    }
+    .comunication img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+@media screen and (width <= 770px) {
+    .bottom{
+        padding: 60px 15px 60px 15px;
+    }
+    .right-item{
+        font-size: 14px;
+    }
+    .bottom-left span{
+        font-size: 14px;
+    }
+    form .button{
+        width: 70px;
+        font-size: 13px;
+    }
+    form .text{
+        width: 200px;
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (width <= 630px) {
+    .bottom{
+        padding: 60px 10px 60px 10px;
+    }
+    .right-item{
+        font-size: 13px;
+    }
+    .bottom-left span{
+        font-size: 13px;
+    }
+    form .button{
+        width: 50px;
+        font-size: 12px;
+    }
+    form .text{
+        width: 180px;
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (width <= 565px) {
+    .bottom{
+        padding: 60px 5px 60px 5px;
+    }
+    .right-item{
+        font-size: 12px;
+    }
+    .bottom-left span{
+        font-size: 12px;
+    }
+    form .button{
+        width: 40px;
+        height: 30px;
+        font-size: 11px;
+    }
+    form .text{
+        width: 110px;
+        height: 30px;
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    
+    .it1 span{
+        margin-left: 8px;
+    }
+    
+    .it2 span{
+        margin-left: 20px;
+    }
+    
+    .it3 span{
+        margin-left: 30px;
+    }
+}

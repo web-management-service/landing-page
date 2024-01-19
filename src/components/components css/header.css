@@ -1,0 +1,48 @@
+.header{
+    padding: 0 120px;
+    justify-content: space-between;
+}
+
+.nav-link{
+    font-family: vazirmatn;
+    font-size: 18px;
+    font-weight: 400;
+    color: #14171F;
+}
+
+.call{
+    color: #C09015;
+}
+
+.header .brand{
+    margin: 16px 0;
+}
+
+.brand-text{
+    font-family: vazirmatn;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #C09015;
+}
+
+@media screen and  (width <= 1120px) {
+    .header{
+        padding: 0 80px;
+    }
+}
+
+@media screen and  (width <= 780px) {
+    .header{
+        padding: 0 60px;
+    }
+}
+
+@media screen and  (width <= 650px) {
+    .header{
+        padding: 0 40px;
+    }
+    .brand-text{
+        font-size: 25px;
+    }
+}

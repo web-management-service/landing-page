@@ -1,0 +1,175 @@
+.services{
+    background: var(--Neutral-50, #F6F8F7);
+    padding: 36px 216px 76px 216px;
+}
+
+.services-title{
+    font-family: vazirmatn;
+    font-size: 38px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+.item{
+    width: 270px;
+    height: 180px;
+}
+
+.item img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+.item .space{
+    width: 60px;
+    height: 2px;
+    background: var(--Neutral-100, #E0E3EB);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item p{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.gold{
+    background: #C09015;
+    color: var(--Neutral-White, #FFF);
+    
+}
+
+.white{
+    background: #fff;
+    color: var(--primary, #C09015);
+
+}
+
+.services-item-top{
+    margin: 27px 0 48px 0;
+    gap: 98px;
+}
+
+.services-item-bottom{
+    gap: 98px;
+}
+
+@media screen and ( width <= 1215px ) {
+    .services{
+        padding: 36px 160px 76px 160px;
+    }
+}
+
+@media screen and ( width <= 1120px ) {
+    .services{
+        padding: 36px 130px 76px 130px;
+    }
+    .services-item-top{
+        gap: 80px;
+    }
+    .services-item-bottom{
+        gap: 80px;
+    }
+}
+
+@media screen and ( width <= 980px ) {
+    .services{
+        padding: 36px 100px 76px 100px;
+    }
+    .services-item-top{
+        gap: 70px;
+    }
+    .services-item-bottom{
+        gap: 70px;
+    }
+    .services-title{
+        font-size: 35px;
+    }
+}
+
+@media screen and ( width <= 850px ) {
+    .services{
+        padding: 36px 80px 76px 80px;
+    }
+    .services-item-top{
+        gap: 50px;
+    }
+    .services-item-bottom{
+        gap: 50px;
+    }
+    .services-title{
+        font-size: 33px;
+    }
+}
+
+@media screen and ( width <= 700px ) {
+    .services{
+        padding: 36px 60px 76px 60px;
+    }
+    .services-item-top{
+        gap: 35px;
+    }
+    .services-item-bottom{
+        gap: 35px;
+    }
+    .item{
+        width: 240px;
+        height: 160px;
+    }
+    .services-title{
+        font-size: 30px;
+    }
+}
+
+@media screen and ( width <= 600px ) {
+    .services{
+        padding: 36px 40px 76px 40px;
+    }
+    .services-item-top{
+        gap: 30px;
+    }
+    .services-item-bottom{
+        gap: 30px;
+    }
+    .item p{
+        font-size: 18px;
+    }
+}
+
+@media screen and ( width <= 600px ) {
+    .item{
+        width: 200px;
+        height: 120px;
+    }
+
+    .item img{
+        margin-top: 10px;
+    }
+    .item p{
+        font-size: 15px;
+    }
+}
+
+@media screen and ( width <= 450px ) {
+    .services{
+        padding: 24px 30px 60px 30px;
+    }
+    .services-item-top{
+        gap: 25px;
+    }
+    .services-item-bottom{
+        gap: 25px;
+    }
+    .services-item-top{
+        margin: 25px 0 36px 0;
+    }
+    .item p{
+        font-size: 14px;
+    }
+}

@@ -7,8 +7,6 @@
 
 .right-item{
     display: flex;
-
-    font-family: Work Sans;
     font-size: 20px;
     text-transform: capitalize;
     text-align: right;
@@ -47,7 +45,7 @@
     margin-top: 5px;
     color: var(--primary, #C09015);
     text-align: right;
-    font-family: Vazirmatn;
+     
     font-size: 24px;
     font-weight: 600;
 }
@@ -66,7 +64,7 @@
 .bottom-left span{
     color: var(--primary, #C09015);
     text-align: right;
-    font-family: Vazirmatn;
+     
     font-size: 20px;
     font-weight: 500;
     font-variant: all-small-caps;
@@ -86,8 +84,6 @@ form .text{
     border: 1px solid var(--Neutral-100, #E0E3EB);
 
     color: var(--Neutral-300, #A3AAC2);
-
-    font-family: Work Sans;
     font-size: 18px;
     font-weight: 400;
 }
@@ -102,7 +98,6 @@ form .button{
 
     color: var(--Neutral-White, #FFF);
     text-align: center;
-    font-family: Work Sans;
     font-size: 18px;
     font-weight: 600;
 }

@@ -5,7 +5,7 @@
 .reasons-title{
     color: var(--Neutral-800, #292E3D);
     text-align: center;
-    font-family: Vazirmatn;
+     
     font-size: 36px;
     font-weight: 700;
 }
@@ -36,7 +36,6 @@
 
 .reasons--item h2{
     color: var(--Neutral-700, #3D445C);
-    font-family: Work Sans;
     font-size: 20px;
     font-weight: 700;
     text-align: right;
@@ -45,7 +44,6 @@
 
 .reasons--item p{
     color: var(--Neutral-400, #858EAD);
-    font-family: Work Sans;
     font-size: 16px;
     font-weight: 400;
 
